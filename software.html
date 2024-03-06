@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<!-- software.html -->
+<!-- Juno Meifert -->
+<!-- MP351 - Spring 2024 -->
+
+<html>
+	<head>
+		<title>Software - MP351 - Juno Meifert</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="navbar">
+			<a class="navlink" href="index.html">Home</a><!--
+			--><a class="navlink navlink_active" href="software.html">Software</a><!--
+		    --><a class="navlink" href="maintenance.html">Maintenance</a><!--
+		    --><a class="navlink" href="talks.html">Talks</a><!--
+			--><a class="navlink" href="aroundthelabs.html">Around the Labs</a>
+		</div>
+		
+		<div class="banner" style="background-image: url(media/servers.jpg);">
+			<h1 class="page_header">Software</h1>
+		</div>
+
+		<div class="content">
+			<h1>Mirror</h1>
+			<h2>API</h2>
+			<p>
+				An API that serves content from mirrors.json for other
+				components to use.
+				<br>
+				<a href="https://github.com/lavajuno/mirrorapi">
+					https://github.com/lavajuno/mirrorapi
+				</a>
+			</p>
+
+			<h2>Logging library and server</h2>
+			<p>
+				Improvements to the C++ logging library, as well as a new
+				logging library for Java. Continued improvements to the log
+				server.
+				<br>
+				<a href="https://github.com/lavajuno/mirrorlog">
+					https://github.com/lavajuno/mirrorlog
+				</a>
+			</p>
+
+			<h2>Building and hosting in containers</h2>
+			<p>
+				Dockerfiles and compose files to build and run components like
+				the sync scheduler and log server in containers.
+			</p>
+		</div>
+		<br>
+
+		<div class="content">
+			<h1>Mount Fsuvius</h1>
+			<p>
+				Continued improvements to how data is stored.
+				<br>
+				The repo has been moved to COSI-Lab, and has welcomed Amity as 
+				its second contributor.
+				<br>
+				Created a CI task on Github to build a docker image and run
+				tests for each commit.
+				<br>
+				<a href="https://github.com/COSI-Lab/fsuvius">
+					https://github.com/COSI-Lab/fsuvius
+				</a>
+			</p>
+		</div>
+		<br>
+
+		<div class="content">
+			<h1>KiCad Sync Script</h1>
+			<p>
+				A python script that Mirror uses to sync KiCad. Allows us to
+				sync from CERN's S3 bucket quickly.
+				<br>
+				<a href="https://github.com/COSI-Lab/Mirror/tree/main/scripts/kicad">
+					https://github.com/COSI-Lab/Mirror/tree/main/scripts/kicad
+				</a>
+			</p>
+		</div>
+
+		<div class="footer_container">
+			<div class="footer_content">
+				This website is open source.
+				<br>
+				<a href="https://github.com/lavajuno/mp351_s24">
+					View on Github
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

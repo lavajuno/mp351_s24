@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<!-- maintenance.html -->
+<!-- Juno Meifert -->
+<!-- MP351 - Spring 2024 -->
+
+<html>
+	<head>
+		<title>Maintenance - MP351 - Juno Meifert</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="navbar">
+			<a class="navlink" href="index.html">Home</a><!--
+			--><a class="navlink" href="software.html">Software</a><!--
+		    --><a class="navlink navlink_active" href="maintenance.html">Maintenance</a><!--
+		    --><a class="navlink" href="talks.html">Talks</a><!--
+			--><a class="navlink" href="aroundthelabs.html">Around the Labs</a>
+		</div>
+		
+		<div class="banner" style="background-image: url(media/hammer.jpg);">
+			<h1 class="page_header">Maintenance</h1>
+		</div>
+
+		<div class="content">
+			<h1>The Great COSI Move of 2024</h1>
+
+			<h2>Planning</h2>
+			<p>
+				Helped develop the new topology, got our handoff from OIT in
+				COLO with Sophia, helped clear out servers from COLO in
+				preparation for the move.
+			</p>
+
+			<h2>The Servery</h2>
+			<p>
+				Re-routed and labelled cables, helped clean up the server 
+				room. Configured FHILL to handle traffic to/from COLO properly
+				and showed Amity + Anthony Mikrotik RouterOS.
+			</p>
+
+			<h2>COLO</h2>
+			<p>
+				TalDos and Kasper initially had some problems after the move to
+				COLO. Visiting COLO for some wiring and configuration changes,
+				I was able to get everything operational.
+			</p>
+		</div>
+		<br>
+
+		<div class="content">
+			<h1>Book</h1>
+			<p>
+				Lots of new information about the network, servers, and services
+				that they run is now in book, some of which now needs to be
+				updated after the great move.
+			</p>
+		</div>
+		<br>
+
+		<div class="content">
+			<h1>Janet and Elephant</h1>
+			<p>
+				Janet is our new compute/memory specialized VM host. It is set
+				up identically to Hydra to keep things consistent for students.
+				<br>
+				Elephant is now operational (running TrueNAS Scale 23.10) and
+				mounted in the IBM rack.
+			</p>
+		</div>
+		<br>
+
+		<div class="content">
+			<h1>KiCad Mirror</h1>
+			<p>
+				We are now the official North American mirror for KiCad. It took
+				a lot of correspondance but it's set up on both ends now.
+			</p>
+		</div>
+		<br>
+
+		<div class="content">
+			<h1>Caddy on Tiamat</h1>
+			<p>
+				Tiamat now uses Caddy to reverse proxy to the services it runs.
+				A couple new contributors (Amity and Anthony) made commits on
+				Github to get services working with Caddy.
+			</p>
+		</div>
+
+		<div class="footer_container">
+			<div class="footer_content">
+				This website is open source.
+				<br>
+				<a href="https://github.com/lavajuno/mp351_s24">
+					View on Github
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
