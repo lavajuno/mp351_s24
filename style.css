@@ -117,7 +117,7 @@ a {
     padding: 0;
 
     background: rgba(0,0,10,0.5);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(10px) saturate(150%);
     box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
 
     transition-duration: 200ms;
@@ -192,14 +192,18 @@ a {
     text-decoration: inherit;
 }
 
-
 .footer_container {
     width: 100%;
     padding: 100px 0;
     margin: 64px 0 0 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,10,0.5);
     box-sizing: border-box;
     box-shadow: 0px -2px 5px rgba(0,0,0,0.5);
+    transition-duration: 200ms;
+}
+.footer_container:hover {
+    background: rgba(0,0,10,0.6);
+    box-shadow: 0px -3px 6px rgba(0,0,0,0.5);
 }
 
 .footer_content {
